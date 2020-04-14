@@ -1,5 +1,6 @@
 # komponents
-todo: badges
+![Travis (.org)](https://img.shields.io/travis/rxsto/komponents?style=flat-square) ![npm](https://img.shields.io/npm/v/@rxsto/komponents?style=flat-square) ![NPM](https://img.shields.io/npm/l/@rxsto/komponents?style=flat-square) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@rxsto/komponents?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@rxsto/komponents?style=flat-square) ![npm](https://img.shields.io/npm/dt/@rxsto/komponents?style=flat-square) ![Discord](https://img.shields.io/discord/698176766748917771?style=flat-square)
+
 A collection of useful javascript web components to keep things clean
 
 ## Features
