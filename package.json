@@ -1,0 +1,32 @@
+{
+  "name": "@rxsto/komponents",
+  "version": "0.1.0-alpha",
+  "description": "A collection of useful javascript web components to keep things clean",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix --ext .js --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rxsto/komponents.git"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "javascript",
+    "node",
+    "useful",
+    "clean",
+    "collection"
+  ],
+  "author": "Oskar 'rxsto' Lang <hi@rxs.to> (https://rxs.to)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Rxsto/komponents/issues"
+  },
+  "homepage": "https://github.com/Rxsto/komponents#readme",
+  "dependencies": {
+    "@aero/eslint-config": "^1.0.1",
+    "eslint": "^6.8.0"
+  }
+}
