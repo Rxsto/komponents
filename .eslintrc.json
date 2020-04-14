@@ -1,0 +1,6 @@
+{
+  "extends": "@aero",
+  "env": {
+    "browser": true
+  }
+}
