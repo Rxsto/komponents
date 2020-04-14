@@ -27,7 +27,7 @@ latest ✔ |latest ✔ |**not** tested |latest ✔ |latest ✔ |**not** tested |
 **Button**
 Nuxt.js: (https://nuxtjs.org)
 
-```js
+```html
 <template>
 	<div class="index">
 		<button id="btn">
@@ -38,16 +38,17 @@ Nuxt.js: (https://nuxtjs.org)
 		</button>
 	</div>
 </template>
+```
 
-<script>
+```js
 // Import class Button
 import { Button } from  '@rxsto/komponents'
 
-export  default {
+export default {
 	// Execute code on mount
 	mounted () {
 		// Create new instance of Button by passing the corresponding id (btn, clr)
-		this.btn =  new  Button('btn')
+		this.btn = new Button('btn')
 		// Add new EventListener with name 'click_red_bg', type 'click' and callback 'makeRed()'
 		this.btn.add('click_red_bg', 'click', makeRed)
 		// Add a second EventListener with direct function call
@@ -69,11 +70,10 @@ export  default {
 	methods: {
 		// Function used for callback above
 		makeRed () {
-			document.body.style.background =  'red'
+			document.body.style.background = 'red'
 		}
 	}
 }
-</script>
 ```
 More to come ...
 
